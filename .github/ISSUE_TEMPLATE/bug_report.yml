@@ -1,0 +1,48 @@
+name: 问题反馈 / Bug report
+description: 描述未按预期工作的行为，帮助我们定位问题。
+title: "[Bug] "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: "感谢反馈。可以使用中文或英文。Issue 公开可见，请隐藏私人文件名、路径与账号信息；购买或订单问题请联系 fxapps@163.com。"
+  - type: input
+    id: app-version
+    attributes:
+      label: DirDeck 版本 / App version
+      placeholder: 请填写「关于 DirDeck」中的版本号
+    validations:
+      required: true
+  - type: input
+    id: macos-version
+    attributes:
+      label: macOS 版本 / macOS version
+      placeholder: 请填写「关于本机」中的系统版本
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 复现步骤 / Steps to reproduce
+      description: 从哪个界面开始？依次做了什么？
+      placeholder: "1. 打开……\n2. 选中……\n3. 执行……"
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: 预期结果 / Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: 实际结果 / Actual behavior
+      description: 如有错误提示，请附上原文。
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: 补充信息 / Additional context
+      description: 可附脱敏截图或录屏、文件格式、位置类型，以及问题出现的频率。

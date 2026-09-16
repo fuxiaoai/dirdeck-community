@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 使用帮助 / Help
+    url: https://dirdeck.com/support/
+    about: 查看权限、预览、试用与购买等常见问题。
+  - name: 私下联系 / Private support
+    url: mailto:fxapps@163.com
+    about: 购买、订单或涉及个人信息的问题，请通过邮件联系。
