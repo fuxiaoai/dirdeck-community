@@ -1,0 +1,110 @@
+{
+  "sourceRepository": "dirdeck-web",
+  "sourceCommit": "77d66153ac969e61095b50a81840ce2e23afaf25",
+  "screenshots": [
+    {
+      "id": "workspaces",
+      "source": "assets-orig/screenshots-v2/zh/workspaces.png",
+      "sourceSha256": "9fd92c98a7f4d4aeea2221d68ab4232a90e9fd0281d52475491eb663d9d8efff",
+      "output": "assets/screenshots/workspaces.webp",
+      "outputSha256": "6268014c0c2761dd0ac0cad2a5880bf5945b3e56161e2417deb2d2bd37272ae7"
+    },
+    {
+      "id": "side-folder",
+      "source": "assets-orig/screenshots-v2/zh/side-folder.png",
+      "sourceSha256": "ff37bced03286419dc0e79c918612d45f805b80a3c560f80de69cf5278c406c7",
+      "output": "assets/screenshots/side-folder.webp",
+      "outputSha256": "b6b0e42343609f620f7220ced827b186533df1c18cbb10ab8544b90a243f969c"
+    },
+    {
+      "id": "archive-browser",
+      "source": "assets-orig/screenshots-v2/zh/archive-browser.png",
+      "sourceSha256": "094d09dda3cbfcaaa8f305bdb0454e50a8d0dcff824e1ae823e1c23a59439e7d",
+      "output": "assets/screenshots/archive-browser.webp",
+      "outputSha256": "ba5cc68a82bd38693f45547645f8938b6722ded1b94ead5f9cfb1b2d8855873f"
+    },
+    {
+      "id": "image-tools",
+      "source": "assets-orig/screenshots-v2/zh/image-tools.png",
+      "sourceSha256": "07b239d2d26414d0be197f82fd30cfe669de58f62636236f1ad4b663489bba3d",
+      "output": "assets/screenshots/image-tools.webp",
+      "outputSha256": "8c59d5d17f0b83e8e1bc54ae41409108c7b53118c45c08f3153d40da5f6d5a92"
+    },
+    {
+      "id": "pdf-tools",
+      "source": "assets-orig/screenshots-v2/zh/pdf-tools.png",
+      "sourceSha256": "b2f4cd293b8595bec8cb53e0cec764f050899f0cff193088baac6acb2dbe9341",
+      "output": "assets/screenshots/pdf-tools.webp",
+      "outputSha256": "e284566443cf5ac322ad461e8ef41355b10fcded5673948f37b79c409ecd0a05"
+    },
+    {
+      "id": "batch-rename",
+      "source": "assets-orig/screenshots-v2/zh/batch-rename.png",
+      "sourceSha256": "c3d11658e854e89f3dc9be7b812eae8a9f6b0ed12c70547b553111d71b9de7a0",
+      "output": "assets/screenshots/batch-rename.webp",
+      "outputSha256": "93e4af4faf145c2a480b26dea6c039ee817af10ab58cab4955842cff8d3179f9"
+    },
+    {
+      "id": "archive-create",
+      "source": "assets-orig/screenshots-v2/zh/archive-create.png",
+      "sourceSha256": "33918e6f61cc60464d2afd7edb2406e7975deb7341ad599a129b65816fda067f",
+      "output": "assets/screenshots/archive-create.webp",
+      "outputSha256": "bb2a62c241ca255cb078d3c1c9f8b293638f9a8f1590594a471236eaff5d9ce9"
+    },
+    {
+      "id": "floating-window",
+      "source": "assets-orig/screenshots-v2/zh/floating-window.png",
+      "sourceSha256": "36916d59ba38af1d4ea574f60fbe81c78e0ab79b1d1464570b3e85ba982e77f7",
+      "output": "assets/screenshots/floating-window.webp",
+      "outputSha256": "243cec725276351917a09f323960ea74bbf6b4dbdce8cc103880c658329d0cb6"
+    },
+    {
+      "id": "floating-orb",
+      "source": "assets-orig/screenshots-v2/zh/floating-orb.png",
+      "sourceSha256": "71ff3c02680b07d27d0b68bcebb1c7179ce3e1b278789e4a656fb2099d57b4bb",
+      "output": "assets/screenshots/floating-orb.webp",
+      "outputSha256": "1a2a10fa7d7ac6fd5e07ee46846c878958662a5c7c097f363a34e6fc0d9564e2"
+    },
+    {
+      "id": "finder-import",
+      "source": "assets-orig/screenshots-v2/zh/finder-import.png",
+      "sourceSha256": "aed20a36eb9a4467d5501f1e256cf1cddc905648f9f21419a9cc2fbab16a70b8",
+      "output": "assets/screenshots/finder-import.webp",
+      "outputSha256": "becc98906f227bd1fd867e0a664e2024ad9fbc6b0a744d7096b8ca4087746718"
+    },
+    {
+      "id": "network",
+      "source": "assets-orig/screenshots-v2/zh/network.png",
+      "sourceSha256": "6b48bed50a8fe27d43edcb96936b536053b26cc74a43a2242890d02da19d6dc6",
+      "output": "assets/screenshots/network.webp",
+      "outputSha256": "d20d501884fad1e0085fa270683042c24333e2052ea26f6ac1c84251ba05dada"
+    },
+    {
+      "id": "default-app",
+      "source": "assets-orig/screenshots-v2/zh/default-app.png",
+      "sourceSha256": "37d37a88bae3a21d0204030ddfbe792d1bf422aaeaeea1591b808b303728237b",
+      "output": "assets/screenshots/default-app.webp",
+      "outputSha256": "668970e1dec78f10f66e01c27917ae620887cb19fddb7f928b678e1bf8127927"
+    },
+    {
+      "id": "tools-config",
+      "source": "assets-orig/screenshots-v2/zh/tools-config.png",
+      "sourceSha256": "30f6d40b83e949eccb90e8a4aefaa40175f723ae4ccce282ce9dba284984fec8",
+      "output": "assets/screenshots/tools-config.webp",
+      "outputSha256": "d9370d598fed29e3baccd388330286c116f4ab416423c8861a5ca18b33acd8cc"
+    },
+    {
+      "id": "context-menu-custom",
+      "source": "assets-orig/screenshots-v2/zh/context-menu-custom.png",
+      "sourceSha256": "fc8efe350f4e2c297a24f26e7112f32dd7536882c9a9eed5f158cdba04efefaa",
+      "output": "assets/screenshots/context-menu-custom.webp",
+      "outputSha256": "5476bdeaa22e3148b61007aaeac7e8549627c8dda795ad6ece22774163229e54"
+    }
+  ],
+  "conversion": {
+    "maxWidth": 1800,
+    "format": "webp",
+    "quality": 82,
+    "crop": false
+  }
+}
