@@ -10,7 +10,7 @@ Ten screenshots appear in each README, seven immediately and three in two expand
 
 ## Title artwork
 
-`scripts/hero.html` is the editable source for the Chinese and English title, with light and dark variants for desktop and narrow screens. The blue gradient and curved reflection follow the owner's website lettering direction. Only the title is rendered artwork; product interfaces remain the original screenshots. The README supplies descriptive alternative text and keeps the product explanation, navigation and actions as real text. GitHub's supported `<picture>` media sources select the dark title when the browser prefers dark colors.
+`scripts/hero.html` is the editable source for the Chinese and English title, with light and dark variants for desktop and narrow screens. The blue gradient and curved reflection follow the owner's website lettering direction. Only the title is rendered artwork; product interfaces remain the original screenshots. The README supplies descriptive alternative text and keeps the product explanation, navigation and actions as real text. GitHub's supported `<picture>` media sources select the dark title when the browser prefers dark colors and a larger-type composition at viewport widths up to 600 pixels. A manually overridden GitHub theme can differ from the browser preference; each title has its own legible background.
 
 To reproduce on a Mac with Avenir Next and PingFang SC, a locally installed `playwright-cli`, and the website's installed `sharp` dependency:
 
@@ -18,7 +18,7 @@ To reproduce on a Mac with Avenir Next and PingFang SC, a locally installed `pla
 2. Open a headless browser with `playwright-cli -s=dirdeck-art open http://127.0.0.1:8769/scripts/hero.html`.
 3. Run `playwright-cli -s=dirdeck-art run-code --filename=scripts/render-heroes.js` to render eight PNGs to `/tmp`.
 4. Run `node scripts/build-assets.mjs /path/to/dirdeck-web /tmp` to extract the fixed source images and encode all artwork.
-5. Run `python3 scripts/check.py`. Review the branch on GitHub at desktop and narrow widths in both color schemes, checking image load, anchors and language switching.
+5. Run `python3 scripts/check.py`. Open the GitHub `/tree/<ref>` page in the task browser, then run `playwright-cli -s=dirdeck-art run-code --filename=scripts/check-github.js` for the 12-case live rendering matrix. Captures go to `/tmp`. Inspect them and click language links and expandable sections before merging.
 6. Close the task browser and stop the local server. Keep acceptance captures outside the repository.
 
 DirDeck's name, icon and screenshots belong to their respective rights holders. Public display does not grant an open-source license to the app or artwork. The icon was already present in this community repository.
