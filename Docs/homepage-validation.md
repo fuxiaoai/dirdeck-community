@@ -27,3 +27,5 @@ Run the live matrix by opening the intended GitHub `/tree/<ref>` page with a hea
 Canonical screenshot source remains website commit `9d8faa17ac5c7d86dbd2c5db147d699112d35f45`; paths, conversion settings and hashes are recorded in `assets/sources.json`. These real screenshots show the Chinese interface, explicitly noted in the English README.
 
 This is the product community and feedback repository, not application source. No new release announcement, direct installer, payment-flow claim or website deployment is included. Download and support links remain those verified during the preceding homepage acceptance.
+
+After PR #48 merged as `e9343443064bf4aa5ebc8ff35cb101b95c8f0f1f`, all 12 cases also passed against public `main`. The browser runner now brings the article into view and waits for image layout boxes after resizing, avoiding a transient GitHub responsive-layout state being reported as hidden content. No page content changes were needed for this follow-up.
