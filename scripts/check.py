@@ -28,7 +28,7 @@ for page in pages:
         else:
             assert fragment in anchors, (page, target)
     assert not re.search(r'<(?:details|summary|picture)\b', text), page
-    assert re.search(r'^# [^<\n]+$', text, re.M), page
+    assert re.search(r'^# <img [^>]+> [^<\n]+ <sup><sub>.*</sub></sup>$', text, re.M), page
     assert 'assets/brand/hero-' not in text, page
     assert any('pdf-tools.webp' in line and 'batch-rename.webp' in line and line.startswith('|') for line in text.splitlines()), page
     assert not re.search(r'https?://[^\s"<>)]*\.(?:dmg|zip)', text)

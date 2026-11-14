@@ -4,7 +4,7 @@ The bilingual community homepage follows the reviewed website narrative and cano
 
 `sources.json` records the exact website commit, original paths and SHA-256 hashes for source and output files. Images are extracted from Git, proportionally resized to at most 1800 pixels wide, and encoded as WebP at quality 82. They are never cropped, retouched or reconstructed. The selected current website captures use the Chinese interface, including their English-directory counterparts; the English README labels this explicitly.
 
-Both pages use a native Markdown heading and a separate 64-pixel product icon. Ten screenshots appear in the same order in each language, all visible without expanding any controls. PDF extraction and batch renaming share a two-column Markdown image table. Readers can open a screenshot for full-size detail. Do not replace demonstration captures with private user data. All referenced images, including the icon, must remain below 2 MB per README.
+Both pages use a single Markdown heading row: a 40-pixel product icon, the text title, then compact language links. Ten screenshots appear in the same order in each language, all visible without expanding any controls. PDF extraction and batch renaming share a two-column Markdown image table. Readers can open a screenshot for full-size detail. Do not replace demonstration captures with private user data. All referenced images, including the icon, must remain below 2 MB per README.
 
 ## Reproduce and check
 

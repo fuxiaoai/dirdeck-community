@@ -1,8 +1,4 @@
-<p align="right"><a href="README.md">简体中文</a> · <strong>English</strong></p>
-
-<p><img src="assets/icon.png" width="64" height="64" alt="DirDeck icon"></p>
-
-# Mac file management. Redefined.
+# <img src="assets/icon.png" width="40" height="40" align="absmiddle" alt="DirDeck icon"> Mac file management. Redefined. <sup><sub>[简体中文](README.md) · English</sub></sup>
 
 <p><strong>Browse like a browser. Work like a Swiss Army knife.</strong></p>
 <p>DirDeck is an all-in-one file workspace for Mac.<br>Find files, preview content, edit images, split PDFs and organize your desktop, right where your files are.</p>

@@ -1,8 +1,4 @@
-<p align="right"><strong>简体中文</strong> · <a href="README.en.md">English</a></p>
-
-<p><img src="assets/icon.png" width="64" height="64" alt="DirDeck 图标"></p>
-
-# 重新定义 Mac 文件管理
+# <img src="assets/icon.png" width="40" height="40" align="absmiddle" alt="DirDeck 图标"> 重新定义 Mac 文件管理 <sup><sub>简体中文 · [English](README.en.md)</sub></sup>
 
 <p><strong>像浏览器一样管理，像瑞士军刀一样处理。</strong></p>
 <p>DirDeck 是 Mac 上的一站式文件工作台。<br>从找文件、看内容，到改图片、拆 PDF、整理桌面，在文件旁边完成。</p>

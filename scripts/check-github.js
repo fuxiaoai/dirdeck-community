@@ -24,8 +24,8 @@ async page => {
      pageOverflow:document.documentElement.scrollWidth>innerWidth,
      images:[...el.querySelectorAll('img')].map(i=>({alt:!!i.alt,loaded:i.complete&&i.naturalWidth>0,source:i.currentSrc})),
      brokenAnchors:[...el.querySelectorAll('a[href^="#"]')].filter(a=>![decodeURIComponent(a.hash.slice(1)), 'user-content-'+decodeURIComponent(a.hash.slice(1))].some(id=>document.getElementById(id)||document.getElementsByName(id).length)).map(a=>a.hash),
-     heading:el.querySelector('h1')?.textContent.trim(),
-     imageHeading:!!el.querySelector('h1 img'),
+     heading:(()=>{const h=el.querySelector('h1')?.cloneNode(true);h?.querySelectorAll('img,sup,.anchor').forEach(n=>n.remove());return h?.textContent.trim()})(),
+     header:(()=>{const h=el.querySelector('h1'),logo=h?.querySelector('img'),language=h?.querySelector('sup');const l=logo?.getBoundingClientRect(),r=language?.getBoundingClientRect();return {logo:logo?.getAttribute('src')?.endsWith('assets/icon.png'),language:!!language?.querySelector('a'),sameLine:!!l&&!!r&&l.left<r.left&&r.top<l.bottom&&r.bottom>l.top}})(),
      disclosures:el.querySelectorAll('details,summary').length,
      hiddenImages:[...el.querySelectorAll('img')].filter(i=>!i.getClientRects().length).length,
      imageGrid:[...el.querySelectorAll('tr')].some(row=>row.querySelectorAll('td img').length===2),
@@ -34,7 +34,7 @@ async page => {
     }));
     if(facts.overflow||facts.pageOverflow||facts.images.some(i=>!i.loaded||!i.alt)||facts.brokenAnchors.length)throw Error(JSON.stringify({lang,theme,width,...facts}));
     const heading = lang==='zh'?'重新定义 Mac 文件管理':'Mac file management. Redefined.';
-    if(facts.heading!==heading||facts.imageHeading||facts.disclosures||facts.hiddenImages||!facts.imageGrid||facts.tableOverflow)throw Error(JSON.stringify({lang,theme,width,...facts}));
+    if(facts.heading!==heading||!facts.header.logo||!facts.header.language||(width>=1000&&!facts.header.sameLine)||facts.disclosures||facts.hiddenImages||!facts.imageGrid||facts.tableOverflow)throw Error(JSON.stringify({lang,theme,width,...facts}));
     await article.scrollIntoViewIfNeeded();
     await article.screenshot({path:`/tmp/dirdeck-community-${lang}-${theme}-${width}.png`});
     results.push({lang,theme,width,images:facts.images.length,overflow:false,brokenAnchors:0,background:facts.background});
