@@ -14,9 +14,10 @@ async page => {
    for (const width of [1440,390,320]) {
     await page.setViewportSize({width,height:1000});
     const article=page.locator('article.markdown-body');
+    await article.scrollIntoViewIfNeeded();
     await page.waitForFunction(()=>{
      const images=[...document.querySelectorAll('article img')];
-     return images.length===11 && images.every(i=>i.complete&&i.naturalWidth>0);
+     return images.length===11 && images.every(i=>i.complete&&i.naturalWidth>0&&i.getClientRects().length>0);
     });
     const facts=await article.evaluate(el=>({
      overflow:el.scrollWidth>el.clientWidth+1,
