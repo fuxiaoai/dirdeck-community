@@ -30,3 +30,17 @@ Issues 是公开的。请勿上传订单凭证、账号信息、访问令牌、�
 ## 仓库范围
 
 本仓库承载产品介绍、使用支持与反馈跟踪，不提供 DirDeck 应用源代码。文档勘误或链接修正可以提交 Pull Request；功能建议请通过 Issue 讨论。提交建议不代表承诺实现或交付日期。
+
+<a id="english"></a>
+
+## Feedback guide (English)
+
+Search [existing issues](https://github.com/fuxiaoai/dirdeck-community/issues) before opening a new one. If you find the same problem, add your reproduction details or react with 👍.
+
+For a [bug report](https://github.com/fuxiaoai/dirdeck-community/issues/new?template=bug_report.yml), describe one problem at a time. Include your DirDeck and macOS versions, steps to reproduce, and expected and actual results. For preview problems, name the file format; for access problems, name the location type (local folder, external drive or network share) without sharing private paths.
+
+For a [feature request](https://github.com/fuxiaoai/dirdeck-community/issues/new?template=feature_request.yml), explain the task you want to complete and the difficulty you encounter. A suggestion is not a commitment to implement it or a promised delivery date.
+
+Issues are public. Do not upload order receipts, account details, access tokens, private files or sensitive logs. Remove private information from screenshots and recordings first. Contact [fxapps@163.com](mailto:fxapps@163.com) privately for purchases, orders or potential data-security issues; avoid publishing exploitable details.
+
+This repository hosts product information, support and feedback, not the DirDeck application source. Documentation and link corrections are welcome as pull requests; discuss product features in issues.

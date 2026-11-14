@@ -1,41 +1,55 @@
 {
-  "sourceRepository": "dirdeck-web",
-  "sourceCommit": "77d66153ac969e61095b50a81840ce2e23afaf25",
+  "sourceRepository": "https://github.com/fuxiaoai/dirdeck-web",
+  "sourceCommit": "9d8faa17ac5c7d86dbd2c5db147d699112d35f45",
   "screenshots": [
     {
       "id": "workspaces",
       "source": "assets-orig/screenshots-v2/zh/workspaces.png",
-      "sourceSha256": "9fd92c98a7f4d4aeea2221d68ab4232a90e9fd0281d52475491eb663d9d8efff",
+      "sourceSha256": "6dfa423335306da3309473fca39820422c6eb8fb0b8cbaa1ce1b008d053c2340",
       "output": "assets/screenshots/workspaces.webp",
-      "outputSha256": "6268014c0c2761dd0ac0cad2a5880bf5945b3e56161e2417deb2d2bd37272ae7"
+      "outputSha256": "fd5b87d0c569089d25bbd9a81fd9d731d729364483e7ec318505c8417de9d91b"
+    },
+    {
+      "id": "nested-bookmarks",
+      "source": "assets-orig/screenshots-v2/zh/nested-bookmarks.png",
+      "sourceSha256": "0aec91c48b3823b145aacf13f7bbea0886a29c38df81bd4146df32a7e8bdaacb",
+      "output": "assets/screenshots/nested-bookmarks.webp",
+      "outputSha256": "37dfc843e3b288c908d9db8ebd005b537633e8a19c612f22adc27445fc65366b"
     },
     {
       "id": "side-folder",
       "source": "assets-orig/screenshots-v2/zh/side-folder.png",
-      "sourceSha256": "ff37bced03286419dc0e79c918612d45f805b80a3c560f80de69cf5278c406c7",
+      "sourceSha256": "19f4a16c9a28991890c266579cf4585d1a6a3c39a7fd35b2a70ae23383ad05f1",
       "output": "assets/screenshots/side-folder.webp",
-      "outputSha256": "b6b0e42343609f620f7220ced827b186533df1c18cbb10ab8544b90a243f969c"
+      "outputSha256": "f17dfc7bff7984461daad2283015f94ea52cb6ecc378154892dcb94732cbdd2f"
     },
     {
       "id": "archive-browser",
       "source": "assets-orig/screenshots-v2/zh/archive-browser.png",
-      "sourceSha256": "094d09dda3cbfcaaa8f305bdb0454e50a8d0dcff824e1ae823e1c23a59439e7d",
+      "sourceSha256": "ad6b91cdea19ce01919aa141d65742b26023e8c3286e216bc4dc363db73acff5",
       "output": "assets/screenshots/archive-browser.webp",
-      "outputSha256": "ba5cc68a82bd38693f45547645f8938b6722ded1b94ead5f9cfb1b2d8855873f"
+      "outputSha256": "3ab8d662eaa70576385ebbf73855200a4e19c2ea0f7d99fe50d5485a7e71e157"
+    },
+    {
+      "id": "dd-search",
+      "source": "assets-orig/screenshots-v2/zh/dd-search.png",
+      "sourceSha256": "b55bc33fa33f38f7fa6c492714ef4b4f4b2d6c31018c12ddfaf506a06a3e1fd7",
+      "output": "assets/screenshots/dd-search.webp",
+      "outputSha256": "59d8019c686c1b84882174b14363e083af1f8f6dc5a21deb33bda57c1098d726"
     },
     {
       "id": "image-tools",
       "source": "assets-orig/screenshots-v2/zh/image-tools.png",
-      "sourceSha256": "07b239d2d26414d0be197f82fd30cfe669de58f62636236f1ad4b663489bba3d",
+      "sourceSha256": "3ff172e6cf8de1784ec24dfb705072c96f23bd4a8090f57233aa6372b731d66a",
       "output": "assets/screenshots/image-tools.webp",
-      "outputSha256": "8c59d5d17f0b83e8e1bc54ae41409108c7b53118c45c08f3153d40da5f6d5a92"
+      "outputSha256": "1d5f012a6c6482f60b6febb467a45cce871af6e26c562a3521d19967c13b046e"
     },
     {
       "id": "pdf-tools",
       "source": "assets-orig/screenshots-v2/zh/pdf-tools.png",
-      "sourceSha256": "b2f4cd293b8595bec8cb53e0cec764f050899f0cff193088baac6acb2dbe9341",
+      "sourceSha256": "d0f92e20349a9b676ab3698234b625d10022328a89cd6dc36388cefeb8dd492e",
       "output": "assets/screenshots/pdf-tools.webp",
-      "outputSha256": "e284566443cf5ac322ad461e8ef41355b10fcded5673948f37b79c409ecd0a05"
+      "outputSha256": "0feb9afa6d6813fa575c13bfbc21a64e73159715843096a8d762730afb745504"
     },
     {
       "id": "batch-rename",
@@ -45,60 +59,18 @@
       "outputSha256": "93e4af4faf145c2a480b26dea6c039ee817af10ab58cab4955842cff8d3179f9"
     },
     {
-      "id": "archive-create",
-      "source": "assets-orig/screenshots-v2/zh/archive-create.png",
-      "sourceSha256": "33918e6f61cc60464d2afd7edb2406e7975deb7341ad599a129b65816fda067f",
-      "output": "assets/screenshots/archive-create.webp",
-      "outputSha256": "bb2a62c241ca255cb078d3c1c9f8b293638f9a8f1590594a471236eaff5d9ce9"
+      "id": "desktop-organizer",
+      "source": "assets-orig/screenshots-v2/zh/desktop-organizer.png",
+      "sourceSha256": "eb4d645470e9dfbbe1c9fccb86db6bead4461367fed07d53470a9dde9cc89b7d",
+      "output": "assets/screenshots/desktop-organizer.webp",
+      "outputSha256": "7873336b8b25e519f62d7377b4c950113d99ee0c605bdd95e7bfa8114896b747"
     },
     {
       "id": "floating-window",
       "source": "assets-orig/screenshots-v2/zh/floating-window.png",
-      "sourceSha256": "36916d59ba38af1d4ea574f60fbe81c78e0ab79b1d1464570b3e85ba982e77f7",
+      "sourceSha256": "a955ecab7adc8bf8c7cae9bfab27ca7bf2031ba206cc263b0bd23138f29b0efe",
       "output": "assets/screenshots/floating-window.webp",
-      "outputSha256": "243cec725276351917a09f323960ea74bbf6b4dbdce8cc103880c658329d0cb6"
-    },
-    {
-      "id": "floating-orb",
-      "source": "assets-orig/screenshots-v2/zh/floating-orb.png",
-      "sourceSha256": "71ff3c02680b07d27d0b68bcebb1c7179ce3e1b278789e4a656fb2099d57b4bb",
-      "output": "assets/screenshots/floating-orb.webp",
-      "outputSha256": "1a2a10fa7d7ac6fd5e07ee46846c878958662a5c7c097f363a34e6fc0d9564e2"
-    },
-    {
-      "id": "finder-import",
-      "source": "assets-orig/screenshots-v2/zh/finder-import.png",
-      "sourceSha256": "aed20a36eb9a4467d5501f1e256cf1cddc905648f9f21419a9cc2fbab16a70b8",
-      "output": "assets/screenshots/finder-import.webp",
-      "outputSha256": "becc98906f227bd1fd867e0a664e2024ad9fbc6b0a744d7096b8ca4087746718"
-    },
-    {
-      "id": "network",
-      "source": "assets-orig/screenshots-v2/zh/network.png",
-      "sourceSha256": "6b48bed50a8fe27d43edcb96936b536053b26cc74a43a2242890d02da19d6dc6",
-      "output": "assets/screenshots/network.webp",
-      "outputSha256": "d20d501884fad1e0085fa270683042c24333e2052ea26f6ac1c84251ba05dada"
-    },
-    {
-      "id": "default-app",
-      "source": "assets-orig/screenshots-v2/zh/default-app.png",
-      "sourceSha256": "37d37a88bae3a21d0204030ddfbe792d1bf422aaeaeea1591b808b303728237b",
-      "output": "assets/screenshots/default-app.webp",
-      "outputSha256": "668970e1dec78f10f66e01c27917ae620887cb19fddb7f928b678e1bf8127927"
-    },
-    {
-      "id": "tools-config",
-      "source": "assets-orig/screenshots-v2/zh/tools-config.png",
-      "sourceSha256": "30f6d40b83e949eccb90e8a4aefaa40175f723ae4ccce282ce9dba284984fec8",
-      "output": "assets/screenshots/tools-config.webp",
-      "outputSha256": "d9370d598fed29e3baccd388330286c116f4ab416423c8861a5ca18b33acd8cc"
-    },
-    {
-      "id": "context-menu-custom",
-      "source": "assets-orig/screenshots-v2/zh/context-menu-custom.png",
-      "sourceSha256": "fc8efe350f4e2c297a24f26e7112f32dd7536882c9a9eed5f158cdba04efefaa",
-      "output": "assets/screenshots/context-menu-custom.webp",
-      "outputSha256": "5476bdeaa22e3148b61007aaeac7e8549627c8dda795ad6ece22774163229e54"
+      "outputSha256": "cbbc7df1e7d9add9e2c46d7f2c7257f4edc8edef2832e3744598f20ea0e77279"
     }
   ],
   "conversion": {
@@ -106,5 +78,39 @@
     "format": "webp",
     "quality": 82,
     "crop": false
-  }
+  },
+  "titles": [
+    {
+      "output": "assets/brand/hero-zh-light.webp",
+      "outputSha256": "4e54dd422568b5cba11f7eeba05f7f65e4ab841c0fb1b89f86bedcb3ba8344d1"
+    },
+    {
+      "output": "assets/brand/hero-zh-light-mobile.webp",
+      "outputSha256": "ef383f86f1da9432752d81767614d29703f03b09434deeb0a5df981d4c53b1b7"
+    },
+    {
+      "output": "assets/brand/hero-zh-dark.webp",
+      "outputSha256": "ac1476f6d3793542baf7453854eb320e84412b87d30c60604b4b740edc6f7ff2"
+    },
+    {
+      "output": "assets/brand/hero-zh-dark-mobile.webp",
+      "outputSha256": "d5cd3a4e83456848ad4a6d75af7df552b91cddab83cae0626b29b6b0f73907b4"
+    },
+    {
+      "output": "assets/brand/hero-en-light.webp",
+      "outputSha256": "6a0802e672e33dc5cbd1592fdec92b93a2537f350d4a06bf01937bf2a3461392"
+    },
+    {
+      "output": "assets/brand/hero-en-light-mobile.webp",
+      "outputSha256": "3df4d14f3a41cde9c5288950fcafc83cd7cbc8b643dc32498a7ba75915d3e58b"
+    },
+    {
+      "output": "assets/brand/hero-en-dark.webp",
+      "outputSha256": "8c6a5048df98f357c56109acc81aadf857e3254d6e6d8442d93efd5865da819b"
+    },
+    {
+      "output": "assets/brand/hero-en-dark-mobile.webp",
+      "outputSha256": "d763acd59d5c85bb0825a7b0a3596fc5e9afcb5dbdea1a2871c0bc3f91c92b5f"
+    }
+  ]
 }
