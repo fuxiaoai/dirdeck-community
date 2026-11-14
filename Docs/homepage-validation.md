@@ -28,3 +28,7 @@ Screenshots demonstrate product capabilities, not a claim that a new release has
 A GitHub account theme manually set against the browser's color preference can select different chrome and title themes. The artwork remains readable on its own background. Mobile screenshots preserve the whole app interface; readers can open the image for full-size detail rather than relying on tiny UI text.
 
 To repeat the browser matrix, open the intended GitHub `/tree/<ref>` URL and run `scripts/check-github.js` via `playwright-cli run-code`. The script uses `main` when the starting URL has no `/tree/` ref. Render captures remain local under `/tmp`, outside the source repository.
+
+## Public main verification
+
+After PR #46 merged as `739bfcff1a10093ae74cd0ea9798a84fa34538cf`, the complete 12-case matrix passed against public `main`. The reusable runner was corrected to read the pathname inside the browser context (the CLI sandbox has no global `URL`) and to wait for the expected responsive image source as well as image completion after resizing. These checks change no product content. The community checkout was synchronized to remote main, and merged work branches were removed.

@@ -1,6 +1,6 @@
 async page => {
  // Run after opening the repository's /tree/<ref> URL; other starting URLs audit main.
- const path = new URL(page.url()).pathname;
+ const path = await page.evaluate(() => location.pathname);
  const ref = path.includes('/tree/') ? path.split('/tree/')[1] : 'main';
  const results=[];
  for (const lang of ['zh','en']) {
@@ -15,7 +15,11 @@ async page => {
     await page.setViewportSize({width,height:1000});
     const article=page.locator('article.markdown-body');
     await article.evaluate(el=>el.querySelectorAll('details').forEach(d=>d.open=true));
-    await page.waitForFunction(()=>[...document.querySelectorAll('article img')].every(i=>i.complete&&i.naturalWidth>0));
+    const expectedTitle = `hero-${lang}-${theme}${width<=600?'-mobile':''}.webp`;
+    await page.waitForFunction(expected=>{
+     const images=[...document.querySelectorAll('article img')];
+     return images.length===11 && images.every(i=>i.complete&&i.naturalWidth>0) && images[0].currentSrc.endsWith(expected);
+    }, expectedTitle);
     const facts=await article.evaluate(el=>({
      overflow:el.scrollWidth>el.clientWidth+1,
      pageOverflow:document.documentElement.scrollWidth>innerWidth,
