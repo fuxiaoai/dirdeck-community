@@ -1,23 +1,18 @@
 <p align="right"><strong>简体中文</strong> · <a href="README.en.md">English</a></p>
 
-<h1>
-  <picture>
-    <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/brand/hero-zh-dark-mobile.webp">
-    <source media="(max-width: 600px)" srcset="assets/brand/hero-zh-light-mobile.webp">
-    <source media="(prefers-color-scheme: dark)" srcset="assets/brand/hero-zh-dark.webp">
-    <img src="assets/brand/hero-zh-light.webp" alt="DirDeck — 重新定义 Mac 文件管理" width="1600">
-  </picture>
-</h1>
+<p><img src="assets/icon.png" width="64" height="64" alt="DirDeck 图标"></p>
 
-<p align="center"><strong>像浏览器一样管理，像瑞士军刀一样处理。</strong></p>
-<p align="center">DirDeck 是 Mac 上的一站式文件工作台。<br>从找文件、看内容，到改图片、拆 PDF、整理桌面，在文件旁边完成。</p>
+# 重新定义 Mac 文件管理
 
-<p align="center">
+<p><strong>像浏览器一样管理，像瑞士军刀一样处理。</strong></p>
+<p>DirDeck 是 Mac 上的一站式文件工作台。<br>从找文件、看内容，到改图片、拆 PDF、整理桌面，在文件旁边完成。</p>
+
+<p>
   <a href="https://apps.apple.com/cn/app/dirdeck/id6794571378?mt=12"><strong>前往 Mac App Store</strong></a> ·
   <a href="https://dirdeck.com/">探索官网</a> ·
   <a href="https://github.com/fuxiaoai/dirdeck-community/issues/new/choose">反馈与建议</a>
 </p>
-<p align="center"><sub>macOS 15 及以上 · 7 天全功能试用 · 无需注册 DirDeck 账号</sub></p>
+<p><sub>macOS 15 及以上 · 7 天全功能试用 · 无需注册 DirDeck 账号</sub></p>
 
 ![DirDeck 工作区：项目、素材与交付目录并排打开，标签页和收藏栏留住常用位置](assets/screenshots/workspaces.webp)
 
@@ -37,12 +32,7 @@
 
 **要对照，就并排放。** 12 种分屏布局、1–4 个窗格，每栏保留自己的浏览位置，文件可以跨栏拖放。把目录、标签页和布局存成工作区，下次接着用；自动记住调整，或只在手动保存时更新，由你决定。
 
-<details>
-<summary>看看标签分组与层级收藏夹</summary>
-
 ![彩色标签分组、多层级收藏夹与文件预览，同在一个窗口](assets/screenshots/nested-bookmarks.webp)
-
-</details>
 
 <a id="preview"></a>
 
@@ -90,14 +80,9 @@
 | 换一种文件格式 | 图片、文稿、PDF 与音视频转换，可用格式随文件和 macOS 支持而异 |
 | 从常用内容开始 | 新建文件模板，或把剪贴板里的文字、图片直接粘贴成文件 |
 
-<details>
-<summary>查看 PDF 提取与批量重命名</summary>
-
-![选择需要从 PDF 中单独提取的页面](assets/screenshots/pdf-tools.webp)
-
-![组合批量重命名规则，逐行对照修改前后的文件名](assets/screenshots/batch-rename.webp)
-
-</details>
+| PDF 页面提取 | 批量重命名 |
+| --- | --- |
+| ![选择需要从 PDF 中单独提取的页面](assets/screenshots/pdf-tools.webp) | ![组合批量重命名规则，逐行对照修改前后的文件名](assets/screenshots/batch-rename.webp) |
 
 <a id="desktop"></a>
 

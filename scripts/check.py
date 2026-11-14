@@ -13,7 +13,7 @@ for page in pages:
     anchor_sets.append(anchors)
     images = set(re.findall(r'(?:src|srcset)="([^"]+)"|!\[[^\]]*\]\(([^)]+)\)', text))
     images = {a or b for a, b in images}
-    assert len(images) == 14, (page, len(images))
+    assert len(images) == 11, (page, len(images))
     assert sum((root / p).stat().st_size for p in images) < 2_000_000, page
     for target in re.findall(r'\]\(([^)]+)\)|(?:href|src|srcset)="([^"]+)"', text):
         target = target[0] or target[1]
@@ -27,7 +27,10 @@ for page in pages:
                 assert f'id="{fragment}"' in linked.read_text(), (page, target)
         else:
             assert fragment in anchors, (page, target)
-    assert text.count('<details>') == text.count('</details>') == 2
+    assert not re.search(r'<(?:details|summary|picture)\b', text), page
+    assert re.search(r'^# [^<\n]+$', text, re.M), page
+    assert 'assets/brand/hero-' not in text, page
+    assert any('pdf-tools.webp' in line and 'batch-rename.webp' in line and line.startswith('|') for line in text.splitlines()), page
     assert not re.search(r'https?://[^\s"<>)]*\.(?:dmg|zip)', text)
     assert 'issues/new?template=bug_report.yml' in text
     assert 'issues/new?template=feature_request.yml' in text
@@ -36,7 +39,7 @@ assert anchor_sets[0] == anchor_sets[1]
 assert re.findall(r'assets/screenshots/[^)]+', pages[0].read_text()) == re.findall(r'assets/screenshots/[^)]+', pages[1].read_text())
 manifest = json.loads((root / 'assets/sources.json').read_text())
 assert re.fullmatch('[0-9a-f]{40}', manifest['sourceCommit'])
-for asset in manifest['screenshots'] + manifest['titles']:
+for asset in manifest['screenshots']:
     data = (root / asset['output']).read_bytes()
     assert hashlib.sha256(data).hexdigest() == asset['outputSha256'], asset['output']
 assert '应用源代码' in pages[0].read_text()
