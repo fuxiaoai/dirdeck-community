@@ -1,23 +1,18 @@
 <p align="right"><a href="README.md">简体中文</a> · <strong>English</strong></p>
 
-<h1>
-  <picture>
-    <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/brand/hero-en-dark-mobile.webp">
-    <source media="(max-width: 600px)" srcset="assets/brand/hero-en-light-mobile.webp">
-    <source media="(prefers-color-scheme: dark)" srcset="assets/brand/hero-en-dark.webp">
-    <img src="assets/brand/hero-en-light.webp" alt="DirDeck — Mac file management. Redefined." width="1600">
-  </picture>
-</h1>
+<p><img src="assets/icon.png" width="64" height="64" alt="DirDeck icon"></p>
 
-<p align="center"><strong>Browse like a browser. Work like a Swiss Army knife.</strong></p>
-<p align="center">DirDeck is an all-in-one file workspace for Mac.<br>Find files, preview content, edit images, split PDFs and organize your desktop, right where your files are.</p>
+# Mac file management. Redefined.
 
-<p align="center">
+<p><strong>Browse like a browser. Work like a Swiss Army knife.</strong></p>
+<p>DirDeck is an all-in-one file workspace for Mac.<br>Find files, preview content, edit images, split PDFs and organize your desktop, right where your files are.</p>
+
+<p>
   <a href="https://apps.apple.com/cn/app/dirdeck/id6794571378?mt=12"><strong>View on the Mac App Store</strong></a> ·
   <a href="https://dirdeck.com/en/">Explore the website</a> ·
   <a href="https://github.com/fuxiaoai/dirdeck-community/issues/new/choose">Feedback & ideas</a>
 </p>
-<p align="center"><sub>macOS 15 or later · 7-day full-feature trial · No DirDeck account required</sub></p>
+<p><sub>macOS 15 or later · 7-day full-feature trial · No DirDeck account required</sub></p>
 
 ![DirDeck workspace with project, source and delivery folders side by side, plus tabs and favorites](assets/screenshots/workspaces.webp)
 
@@ -37,12 +32,7 @@ Keep references, work in progress and delivery folders in separate tabs. Group t
 
 **Need to compare? Put them side by side.** Choose from 12 layouts with 1–4 panes. Each pane keeps its own browsing position, and files can be dragged between them. Save folders, tabs and layouts as a workspace to pick up later. Let it remember changes automatically, or update it only when you save.
 
-<details>
-<summary>See tab groups and nested favorites</summary>
-
 ![Colored tab groups, nested favorites and file preview in a single window](assets/screenshots/nested-bookmarks.webp)
-
-</details>
 
 <a id="preview"></a>
 
@@ -90,14 +80,9 @@ Need to submit a PDF but only have photos? Select them and create one from the m
 | Change a file's format | Convert images, documents, PDFs, audio and video; available formats depend on the file and macOS support |
 | Start from familiar content | Create files from templates, or paste clipboard text and images as files |
 
-<details>
-<summary>See PDF extraction and batch renaming</summary>
-
-![Choosing the pages to extract from a PDF](assets/screenshots/pdf-tools.webp)
-
-![Combining batch rename rules and comparing original and proposed filenames](assets/screenshots/batch-rename.webp)
-
-</details>
+| Extract PDF pages | Batch rename |
+| --- | --- |
+| ![Choosing the pages to extract from a PDF](assets/screenshots/pdf-tools.webp) | ![Combining batch rename rules and comparing original and proposed filenames](assets/screenshots/batch-rename.webp) |
 
 <a id="desktop"></a>
 
