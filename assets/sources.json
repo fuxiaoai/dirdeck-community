@@ -85,16 +85,32 @@
       "outputSha256": "4e54dd422568b5cba11f7eeba05f7f65e4ab841c0fb1b89f86bedcb3ba8344d1"
     },
     {
+      "output": "assets/brand/hero-zh-light-mobile.webp",
+      "outputSha256": "ef383f86f1da9432752d81767614d29703f03b09434deeb0a5df981d4c53b1b7"
+    },
+    {
       "output": "assets/brand/hero-zh-dark.webp",
       "outputSha256": "ac1476f6d3793542baf7453854eb320e84412b87d30c60604b4b740edc6f7ff2"
+    },
+    {
+      "output": "assets/brand/hero-zh-dark-mobile.webp",
+      "outputSha256": "d5cd3a4e83456848ad4a6d75af7df552b91cddab83cae0626b29b6b0f73907b4"
     },
     {
       "output": "assets/brand/hero-en-light.webp",
       "outputSha256": "6a0802e672e33dc5cbd1592fdec92b93a2537f350d4a06bf01937bf2a3461392"
     },
     {
+      "output": "assets/brand/hero-en-light-mobile.webp",
+      "outputSha256": "3df4d14f3a41cde9c5288950fcafc83cd7cbc8b643dc32498a7ba75915d3e58b"
+    },
+    {
       "output": "assets/brand/hero-en-dark.webp",
       "outputSha256": "8c6a5048df98f357c56109acc81aadf857e3254d6e6d8442d93efd5865da819b"
+    },
+    {
+      "output": "assets/brand/hero-en-dark-mobile.webp",
+      "outputSha256": "d763acd59d5c85bb0825a7b0a3596fc5e9afcb5dbdea1a2871c0bc3f91c92b5f"
     }
   ]
 }

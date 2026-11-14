@@ -22,9 +22,9 @@ for (const id of ids) {
 }
 mkdirSync('assets/brand', { recursive: true });
 const titles = [];
-for (const locale of ['zh', 'en']) for (const theme of ['light', 'dark']) {
-  const output = `assets/brand/hero-${locale}-${theme}.webp`;
-  const buffer = await sharp(`${heroes}/hero-${locale}-${theme}.png`).webp({ quality: 90 }).toBuffer();
+for (const locale of ['zh', 'en']) for (const theme of ['light', 'dark']) for (const size of ['', '-mobile']) {
+  const output = `assets/brand/hero-${locale}-${theme}${size}.webp`;
+  const buffer = await sharp(`${heroes}/hero-${locale}-${theme}${size}.png`).webp({ quality: 90 }).toBuffer();
   writeFileSync(output, buffer);
   titles.push({ output, outputSha256: hash(buffer) });
 }

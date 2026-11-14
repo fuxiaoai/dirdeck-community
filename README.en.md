@@ -2,6 +2,8 @@
 
 <h1>
   <picture>
+    <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/brand/hero-en-dark-mobile.webp">
+    <source media="(max-width: 600px)" srcset="assets/brand/hero-en-light-mobile.webp">
     <source media="(prefers-color-scheme: dark)" srcset="assets/brand/hero-en-dark.webp">
     <img src="assets/brand/hero-en-light.webp" alt="DirDeck — Mac file management. Redefined." width="1600">
   </picture>

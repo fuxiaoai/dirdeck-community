@@ -13,7 +13,7 @@ for page in pages:
     anchor_sets.append(anchors)
     images = set(re.findall(r'(?:src|srcset)="([^"]+)"|!\[[^\]]*\]\(([^)]+)\)', text))
     images = {a or b for a, b in images}
-    assert len(images) == 12, (page, len(images))
+    assert len(images) == 14, (page, len(images))
     assert sum((root / p).stat().st_size for p in images) < 2_000_000, page
     for target in re.findall(r'\]\(([^)]+)\)|(?:href|src|srcset)="([^"]+)"', text):
         target = target[0] or target[1]
